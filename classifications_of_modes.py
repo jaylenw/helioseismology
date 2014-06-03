@@ -9,6 +9,7 @@
 n=4
 N = ((-1*n) -1)
 m_list = []
+l_list = []
 
 #below we are building the rotation splitting, 'm' , known as m
 for number in xrange(n, N, -1):
@@ -19,4 +20,9 @@ for number in xrange(n, N, -1):
 
 print m_list
 
-print N
+
+for number in xrange(0, (n+1)):
+
+    l_list.append(number)
+
+print l_list
