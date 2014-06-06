@@ -16,8 +16,18 @@ from math import sqrt #importing python built in math function
 """
 gma1 = 5.0/3
 
+#below we are finding omega for the p modes
+
 def omegaP(n, l):
-  omega_squared = 2*gma1*(n**2) + (l(l+1))/2*gma1*(n**2)
+  omega_squared = 2*gma1*(n**2) + (l*(l+1))/2*gma1*(n**2)
+  omega = math.sqrt(omega_squared) #taking square root
+
+  return omega
+
+#below we are finding omega for the g modes
+
+def omegaG(n, l):
+  omega_squared = (-l*(l+1)) / 2*gma1*(n**2)
   omega = math.sqrt(omega_squared)
 
   return omega

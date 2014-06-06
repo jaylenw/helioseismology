@@ -1,4 +1,5 @@
-from gamma1 import omegaP #importing gamma_1 fxn from gamma1 file
+from gamma1 import omegaP #importing omegaP fxn from gamma1 file
+from gamma1 import omegaG # '                                  '
 
 """
     If using my mental model from quantum correctly
