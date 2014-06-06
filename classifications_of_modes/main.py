@@ -48,4 +48,4 @@ for number in xrange(0, (n+1)):
 
   i+=1 #i is incrementing by one
 
-print omegaP_list
+print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
