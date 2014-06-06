@@ -20,7 +20,7 @@ gma1 = 5.0/3
 
 def omegaP(n, l):
   omega_squared = 2*gma1*(n**2) + (l*(l+1))/2*gma1*(n**2)
-  omega = math.sqrt(omega_squared) #taking square root
+  omega = sqrt(omega_squared) #taking square root
 
   return omega
 
@@ -28,6 +28,6 @@ def omegaP(n, l):
 
 def omegaG(n, l):
   omega_squared = (-l*(l+1)) / 2*gma1*(n**2)
-  omega = math.sqrt(omega_squared)
+  omega = sqrt(omega_squared)
 
   return omega
