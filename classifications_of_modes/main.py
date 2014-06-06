@@ -1,3 +1,5 @@
+from gamma1 import omegaP #importing gamma_1 fxn from gamma1 file
+
 """
     If using my mental model from quantum correctly
     and applying it to finding p and g modes of radial oscillations, 'n' is the
@@ -30,3 +32,10 @@ for number in xrange((-1*n), (n+1)):
     m_list.append(number)
 
 print "Rotation splitting modes are...", "\n", m_list
+
+
+
+
+for number in xrange(0, (n+1)):
+
+  #going to capture answer for omega

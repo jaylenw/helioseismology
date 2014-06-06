@@ -1,3 +1,5 @@
+from math import sqrt #importing python built in math function
+
 """Gamma one
 
   I will be assuming the Sun is is made up of all hydrogen just to see how this
@@ -12,3 +14,10 @@
   where f is the number of degrees of freedom of the gas. For monoatomic case,
   the number of degrees of freedom are 3. so (2+3)/3 = 5/3
 """
+gma1 = 5.0/3
+
+def omegaP(n, l):
+  omega_squared = 2*gma1*(n**2) + (l(l+1))/2*gma1*(n**2)
+  omega = math.sqrt(omega_squared)
+
+  return omega
