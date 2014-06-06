@@ -19,6 +19,7 @@ print "Energy mode is",n,"."
 m_list = []      #splitting modes
 l_list = []      #angular modes
 omegaP_list = [] #omega for p modes
+omegaG_list = [] #omega for g modes
 
 
 #below we are building the angular energy mode
@@ -45,7 +46,10 @@ for number in xrange(0, (n+1)):
 
   l = l_list[i] #specific angular mode in the angular mode list
   omegaP_list.append(omegaP(n, l)) #building the omegaP_list
+  omegaG_list.append(omegaG(n, 1)) #building the omegaG_list
 
   i+=1 #i is incrementing by one
 
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
+
+print "Omegas for a given 'n' tjat are g modes are...", "\n", omegaG_list
