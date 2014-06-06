@@ -28,6 +28,9 @@ def omegaP(n, l):
 
 def omegaG(n, l):
   omega_squared = (-l*(l+1)) / (2*gma1*(n**2))
-  omega = sqrt(omega_squared)
 
-  return omega
+  return omega_squared
+
+""" I prevously debugged an error. A math error.  Can't square root a negative
+of course..so I removed omega = sqrt(omega_squared) and made correct
+adjustments for the above function and in the main file"""

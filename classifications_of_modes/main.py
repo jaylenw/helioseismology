@@ -52,4 +52,4 @@ for number in xrange(0, (n+1)):
 
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
-print "Omegas for a given 'n' tjat are g modes are...", "\n", omegaG_list
+print "Omega squares' for a given 'n' that are g modes are...","\n", omegaG_list
