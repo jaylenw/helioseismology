@@ -46,7 +46,7 @@ for number in xrange(0, (n+1)):
 
   l = l_list[i] #specific angular mode in the angular mode list
   omegaP_list.append(omegaP(n, l)) #building the omegaP_list
-  omegaG_list.append(omegaG(n, 1)) #building the omegaG_list
+  omegaG_list.append(omegaG(n, l)) #building the omegaG_list
 
   i+=1 #i is incrementing by one
 
