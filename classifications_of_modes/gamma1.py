@@ -1,4 +1,5 @@
 from math import sqrt #importing python built in math function
+import cmath #importing to handle negative roots
 
 """Gamma one
 
@@ -29,8 +30,6 @@ def omegaP(n, l):
 def omegaG(n, l):
   omega_squared = (-l*(l+1)) / (2*gma1*(n**2))
 
-  return omega_squared
+  omega = cmath.sqrt(omega_squared) #solved problem with negative roots
 
-""" I prevously debugged an error. A math error.  Can't square root a negative
-of course..so I removed omega = sqrt(omega_squared) and made correct
-adjustments for the above function and in the main file"""
+  return omega
