@@ -33,7 +33,7 @@ print "Angular degrees are...", "\n", l_list
 #below we are building the rotation splitting modes, 'm' , known as m
 for number in xrange((-1*n), (n+1)):
 
-    m_list.append(number)
+    m_list.append(number)  #adding numbers to list
 
 print "Rotation splitting modes are...", "\n", m_list
 
@@ -52,4 +52,4 @@ for number in xrange(0, (n+1)):
 
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
-print "Omega for a given 'n' that are g modes are...","\n", omegaG_list
+print "Omegas for a given 'n' that are g modes are...","\n", omegaG_list
