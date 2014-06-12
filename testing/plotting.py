@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Matplotlib can not plot in interactive mode.  Only when running a .py file.
 
-""" I am going to see if I can pull in data from main.py to here and then
+""" Pulling in data such as the lists from main.py to here and then
 display the graph/plot/spectrum """
 
 def plotomegaP(l_list, omegaP_list):
@@ -29,6 +29,6 @@ def plotomegaG(l_list, omegaG_list):
 
   plt.xlabel('Angular Degrees') #labeled the axis
   plt.ylabel('Omegas')          #labeled the axis
-  plt.show()
+  plt.show()                    
 
   return

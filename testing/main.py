@@ -1,6 +1,6 @@
 from gamma1 import omegaP #importing omegaP fxn from gamma1 file
 from gamma1 import omegaG # '                                  '
-from plotting import plotomegaP
+from plotting import plotomegaP #importing plotomegaP fxn from plotting file
 from plotting import plotomegaG
 
 """
@@ -11,8 +11,14 @@ from plotting import plotomegaG
 
 """
 
-#for now testing for n=5, will ask for user input later
-n=5
+#Below asking user for input on angular degree
+
+n = raw_input( "Please enter a number for the radial order: ")
+n = int(n)
+
+"""In python 2.7, it is recommended to take user input using raw_input
+and then I'm converting the string into an int"""
+
 i=0 #used for iterations and indexing
 
 print "Energy mode is",n,"."
@@ -57,7 +63,7 @@ print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 print "Omega for a given 'n' that are g modes are...","\n", omegaG_list
 
 """below using the plot functions in plotting.py to plot the angular degree
-#list and the omega lists"""
+list and the omega lists"""
 
 plotomegaP(l_list, omegaP_list)
 
