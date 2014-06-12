@@ -6,25 +6,19 @@ import matplotlib.pyplot as plt
 """ I am going to see if I can pull in data from main.py to here and then
 display the graph/plot/spectrum """
 
-def plotomegaP(omegaP_list):
-  x = [1, 2, 3, 4, 5, 6]
-  y = omegaP_list
-  labels = ['Omega P']
+def plotomegaP(l_list, omegaP_list):
 
-  plt.plot(x, y,)
-
+  plt.plot(l_list, omegaP_list)
+  #plt.ylablel('Omega P Values')
   plt.show()
 
   return
 
 
-def plotomegaG(omegaG_list):
-  x = [1, 2, 3, 4, 5, 6]
-  y = omegaG_list
-  labels = ['Omega G']
+def plotomegaG(l_list, omegaG_list):
 
-  plt.plot(x, y)
-
+  plt.plot(l_list, omegaG_list)
+  #plt.ylabel("Omega G Values")
   plt.show()
 
   return

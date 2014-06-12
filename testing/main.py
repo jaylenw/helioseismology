@@ -56,6 +56,9 @@ print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
 print "Omega for a given 'n' that are g modes are...","\n", omegaG_list
 
-plotomegaP(omegaP_list)
+"""below using the plot functions in plotting.py to plot the angular degree
+#list and the omega lists"""
 
-plotomegaG(omegaG_list)
+plotomegaP(l_list, omegaP_list)
+
+plotomegaG(l_list, omegaG_list)
