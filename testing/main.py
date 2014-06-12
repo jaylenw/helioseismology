@@ -1,5 +1,7 @@
 from gamma1 import omegaP #importing omegaP fxn from gamma1 file
 from gamma1 import omegaG # '                                  '
+from plotting import plotomegaP
+from plotting import plotomegaG
 
 """
     If using my mental model from quantum correctly
@@ -53,3 +55,7 @@ for number in xrange(0, (n+1)):
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
 print "Omega for a given 'n' that are g modes are...","\n", omegaG_list
+
+plotomegaP(omegaP_list)
+
+plotomegaG(omegaG_list)
