@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  #importing necessary modules to plot
 
 
 # Matplotlib can not plot in interactive mode.  Only when running a .py file.
@@ -29,6 +29,6 @@ def plotomegaG(l_list, omegaG_list):
 
   plt.xlabel('Angular Degrees') #labeled the axis
   plt.ylabel('Omegas')          #labeled the axis
-  plt.show()                    
+  plt.show()
 
   return
