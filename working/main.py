@@ -1,7 +1,8 @@
 from gamma1 import omegaP #importing omegaP fxn from gamma1 file
+from gamma1 import omegaGsquared # '                                  '
 from gamma1 import omegaG # '                                  '
 from plotting import plotomegaP #importing plotomegaP fxn from plotting file
-from plotting import plotomegaG
+from plotting import plotomegaG # '                                  '
 
 """
     If using my mental model from quantum correctly
@@ -27,6 +28,7 @@ print "Energy mode is",n,"."
 m_list = []      #splitting modes
 l_list = []      #angular modes
 omegaP_list = [] #omega for p modes
+omegaGsqrd_list = [] #omega squared for g modes
 omegaG_list = [] #omega for g modes
 
 
@@ -54,19 +56,20 @@ for number in xrange(0, (n+1)):
 
   l = l_list[i] #specific angular mode in the angular mode list
   omegaP_list.append(omegaP(n, l)) #building the omegaP_list
-  omegaG_list.append(omegaG(n, l)) #building the omegaG_list
+  omegaGsqrd_list.append(omegaGsquared(n, l)) #building the omegaGsquared_list
+  omegaG_list.append(omegaG(omegaGsquared(n, l))) #building the omegaG list
 
   i+=1 #i is incrementing by one
 
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
+print "Omega squared for a given 'n' that are g modes are...","\n", omegaGsqrd_list
 
-
-print "Omega for a given 'n' that are g modes are...","\n", omegaG_list
+print "Omegas for a given 'n' that are g modes are...", "\n", omegaG_list
 
 """below using the plot functions in plotting.py to plot the angular degree
 list and the omega lists"""
 
-plotomegaP(l_list, omegaP_list)
+#plotomegaP(l_list, omegaP_list)
 
-plotomegaG(l_list, omegaG_list)
+#plotomegaG(l_list, omegaG_list)

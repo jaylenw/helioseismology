@@ -27,9 +27,19 @@ def omegaP(n, l):
 
 #below we are finding omega for the g modes
 
-def omegaG(n, l):
+
+def omegaGsquared(n, l):
   omega_squared = (-l*(l+1)) / (2*gma1*(n**2))
 
-  omega = cmath.sqrt(omega_squared) #solved problem with negative roots
+
+  return omega_squared
+
+def omegaG(number):
+
+  """captured information from main.py using number to find
+  roots for omegaG.  number variable was just used to caputure the integer and
+  used for arithmetic"""
+
+  omega = cmath.sqrt(number) #solved problem with negative roots
 
   return omega
