@@ -2,6 +2,7 @@ from gamma1 import omegaP #importing omegaP fxn from gamma1 file
 from gamma1 import omegaGsquared # '                                  '
 from gamma1 import omegaG # '                                  '
 from plotting import plotomegaP #importing plotomegaP fxn from plotting file
+from plotting import plotomegaGsqrd # '                                  '
 from plotting import plotomegaG # '                                  '
 
 """
@@ -70,6 +71,8 @@ print "Omegas for a given 'n' that are g modes are...", "\n", omegaG_list
 """below using the plot functions in plotting.py to plot the angular degree
 list and the omega lists"""
 
-#plotomegaP(l_list, omegaP_list)
+plotomegaP(l_list, omegaP_list)
 
-#plotomegaG(l_list, omegaG_list)
+plotomegaGsqrd(l_list, omegaGsqrd_list)
+
+plotomegaG(l_list, omegaG_list)
