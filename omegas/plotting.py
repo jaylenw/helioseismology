@@ -24,7 +24,7 @@ def plotomegaGsqrd(l_list, omegaGsqrd_list):
   plt.title("Angular Degrees vs. Omega G squared Modes")
   plt.grid(True) #just adding a dotted grid for fun
   plt.plot(l_list, omegaGsqrd_list, 'bo')
-  #the 'bo' just means don't use default line plot, but use blue filledc circles
+  #the 'bo' just means don't use default line plot, but use blue filled circles
 
   plt.xlabel('Angular Degrees') #labeled the axis
   plt.ylabel('Omega Squares')          #labeled the axis
@@ -37,7 +37,7 @@ def plotomegaG(l_list, omegaG_list):
   plt.title("Angular Degrees vs. Omega G Modes")
   plt.grid(True) #just adding a dotted grid for fun
   plt.plot(l_list, omegaG_list, 'bo')
-  #the 'bo' just means don't use default line plot, but use blue filledc circles
+  #the 'bo' just means don't use default line plot, but use blue filled circles
 
   plt.xlabel('Angular Degrees') #labeled the axis
   plt.ylabel('Omegas')          #labeled the axis
