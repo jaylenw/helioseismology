@@ -16,8 +16,8 @@ def plotomegaP(l_list, omegaP_list):
   plt.plot(l_list, omegaP_list, 'bo') #l_list is x-axis, omegaP_list is y-axis)
   #the 'bo' just means don't use default line plot, but use blue filled circles
 
-  plt.xlabel('Angular Degrees') #labeled the axis
-  plt.ylabel('Omegas')          #labeled the axis
+  plt.xlabel('Angular Degrees') #labeled the x-axis
+  plt.ylabel('Omegas')          #labeled the y-axis
   plt.show()
 
   return
