@@ -19,7 +19,7 @@ About this Directory
 2.  gamma2.py will be more realistic conditions of the Sun as close as I can
     achieve.
 
-3.  Pictures of the plots will be included in this folder.
+3.  Picture links below.
 
 ![Inputting and Outputting info](https://github.com/jaylenw/helioseismology/blob/master/omegas/Screenshot1.png "Inputting and Outputting info")
 
