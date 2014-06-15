@@ -1,5 +1,5 @@
 massSun = 1.989*10**30 #mass of Sun in kilograms
-gravC = 6.67384*10**(-11)
+gravC = 6.67384*10**(-11) #gravitational constant
 
 def density(r):
 
