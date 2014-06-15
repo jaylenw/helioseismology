@@ -21,8 +21,6 @@ n = int(n)
 """In python 2.7, it is recommended to take user input using raw_input
 and then I'm converting the string into an int"""
 
-i=0 #used for iterations and indexing
-
 print "Energy mode is",n,"."
 
 #initializing lists for angular and splitting modes
@@ -55,12 +53,10 @@ for number in xrange(0, (n+1)):
 
   #going to capture answer for omega
 
-  l = l_list[i] #specific angular mode in the angular mode list
+  l = l_list[number] #specific angular mode in the angular mode list
   omegaP_list.append(omegaP(n, l)) #building the omegaP_list
   omegaGsqrd_list.append(omegaGsquared(n, l)) #building the omegaGsquared_list
   omegaG_list.append(omegaG(omegaGsquared(n, l))) #building the omegaG list
-
-  i+=1 #i is incrementing by one
 
 print "Omegas for a given 'n' that are p modes are...", "\n", omegaP_list
 
