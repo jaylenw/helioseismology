@@ -21,10 +21,10 @@ About this Directory
 
 3.  Picture links below.
 
-![Inputting and Outputting info](https://github.com/jaylenw/helioseismology/blob/master/omegas/Screenshot1.png "Inputting and Outputting info")
+![Inputting and Outputting info](https://raw.githubusercontent.com/jaylenw/helioseismology/master/omegas/Screenshot1.png "Inputting and Outputting info")
 
-![Plotting P Modes](https://github.com/jaylenw/helioseismology/blob/master/omegas/Screenshot2.png "Plotting P Modes")
+![Plotting P Modes](https://raw.githubusercontent.com/jaylenw/helioseismology/master/omegas/Screenshot2.png "Plotting P Modes")
 
-![Plotting G Modes Squared](https://github.com/jaylenw/helioseismology/blob/master/omegas/Screenshot3.png "Plotting G Modes Squared")
+![Plotting G Modes Squared](https://raw.githubusercontent.com/jaylenw/helioseismology/master/omegas/Screenshot3.png "Plotting G Modes Squared")
 
-![Plotting G Modes imaginary Components](https://github.com/jaylenw/helioseismology/blob/master/omegas/Screenshot4.png "Plotting G Modes imaginary Components")
+![Plotting G Modes imaginary Components](https://raw.githubusercontent.com/jaylenw/helioseismology/master/omegas/Screenshot4.png "Plotting G Modes imaginary Components")
