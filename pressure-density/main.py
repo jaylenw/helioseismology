@@ -19,17 +19,17 @@ print "Your generated radius list is", "\n", radius_list
 
 n = len(radius_list) #obtaining length of radius list for list building below
 
-for number in xrange(0, (n+1)):
+for number in xrange(1, (n+1)):
 
   rho_list.append(density(number)) #building density list full of rhos
   pressure_list.append(pressure(number)) #building pressure list full of p's
 
 
-print "Our density list is...", "\n", density_list
+print "Our density list is...", "\n", rho_list
 print "Our pressure list is...", "\n", pressure_list
 
 """Plotting relationships using functions from plotting.py"""
 
-plotr_rho(radius_list, density_list) #plotting radius vs. density
+plotr_rho(radius_list, rho_list) #plotting radius vs. density
 plotr_p(radius_list, pressure_list)  #plotting radius vs. pressure
 plotp_rho(pressure_list, rho_list)   #plotting pressure vs. rho
