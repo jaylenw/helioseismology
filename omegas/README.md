@@ -19,8 +19,7 @@ About this Directory
 2.  gamma2.py will be more realistic conditions of the Sun as close as I can
     achieve.
 
-3.  The program will allow you to input any "n" energy mode, and will return the angular modes, rotating splitting modes, and respective omegas
-    for the pressure modes and gravitational modes.
+3.  The program will allow you to input any "n" energy mode, and will return the angular modes "l", rotating splitting modes "m", and respective     omegas "w" for the pressure modes "p" and gravitational modes "g".
 
 4.  Picture links below.
 
