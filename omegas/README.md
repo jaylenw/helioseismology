@@ -19,7 +19,11 @@ About this Directory
 2.  gamma2.py will be more realistic conditions of the Sun as close as I can
     achieve.
 
-3.  Picture links below.
+3.  The program will allow you to input any "n" energy mode, and will return the angular modes, rotating splitting modes, and respective omegas
+    for the pressure modes and gravitational modes.
+
+4.  Picture links below.
+
 
 ![Inputting and Outputting info](https://raw.githubusercontent.com/jaylenw/helioseismology/master/omegas/Screenshot1.png "Inputting and Outputting info")
 
