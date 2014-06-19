@@ -7,7 +7,8 @@ About this Directory
 1.  This folder will have two gamma files.  gamma1.py will be a situation where
     the Sun is assumed to be made up of all hydrogen.  I will be using pressure
     and density that I looked up for the Sun.  Let's assume the Sun is made up
-    of a monatomic ideal gas, therefore gamma = 5/3.
+    of a monatomic ideal gas, therefore gamma = 5/3.  THIS IS NOT REALISTIC
+    SITUATIONS.
 
     (P*V)^gamma = constant, P is pressure, V is volume.
 
