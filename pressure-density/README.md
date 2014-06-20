@@ -21,4 +21,12 @@ About this Directory
             M = mass of Sun
             R = Radius of Sun
 
-4.  More details to come.  Work in progress.
+4.  Picture links below.
+
+![CMD Line output](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot4.png)
+![Plotting Radius vs. Rho](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot1.png)
+![Radius vs. Rho Zoomed](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot1zoomed.png)
+![Radius vs. Pressure](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot2.png)
+![Radius vs. Pressure Zoomed](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot2zoomed.png)
+![Pressure vs. Rho](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot3.png)
+![Pressure vs. Rho Zoomed](https://raw.githubusercontent.com/jaylenw/helioseismology/master/pressure-density/Screenshots/Screenshot3zoomed.png)
