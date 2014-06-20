@@ -10,8 +10,8 @@ About this Directory
 
 3.  Data and information obtained at these following links.
 
-     ![The Opal Opacity Code](http://opalopacity.llnl.gov/opal.html)
+  ![The Opal Opacity Code](http://opalopacity.llnl.gov/opal.html)
 
-     ![Opal Opacity Downloads, Equation Of States 2005 Downloads](http://opalopacity.llnl.gov/EOS_2005/)
+  ![Opal Opacity Downloads, Equation Of States 2005 Downloads](http://opalopacity.llnl.gov/EOS_2005/)
 
-     ![README info on Opal EOS data files](http://opalopacity.llnl.gov/EOS_2005/README)
+  ![README info on Opal EOS data files](http://opalopacity.llnl.gov/EOS_2005/README)
