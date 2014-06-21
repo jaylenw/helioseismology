@@ -1,14 +1,19 @@
+from builders import float_list
 
 #Original text file was called EOS5_00z8x.yxt
 datafile = open("EOS5.txt", "r") #opening file
 
 datalist = []
+linebreakerlist = []
+
+
 densitylist = []
 temperaturelist = []
 pressurelist = []
 gamma1list = []
-linebreakerlist = []
+
 i = 0 #using i to keep track of number of lines
+j = 0 #using j to keep track of density for a given set
 
 for aline in datafile:
   datalist = aline.split()
@@ -49,13 +54,29 @@ print len(linebreakerlist)
 #for number in xrange(0, len(linebreakerlist)):
 
 #  print linebreakerlist[number]
-for n in xrange(0,168):  #total numbers in linebreaker list is 169
+for n in xrange(0,168):  #total numbers in linebreakerlist is 169
+  if n < 168:  #handles when to stop the code below base on sets left
+    s = linebreakerlist[n]
+    t = linebreakerlist[n+1]
 
-  s = linebreakerlist[n]
-  t = linebreakerlist[n+1]
+    #would need to reset holding lists after first run
+    holdingtemperaturelist = []
+    holdingpressurelist = []
+    holdinggamma1list = []
   #seven line space between each density set
-#for counter in xrange(s, t-7 ):
-  #computation happens
+    for counter in xrange(s, t-7 ):
+      #computation happens
+      #densitylist[j]
+      j+=1
+
+      holdingtemperaturelist.append(temperaturelist[counter])
+      holdingpressurelist.append(presurelist[counter])
+      holdinggamma1list.append(gamm1list[counder])
+
+      def float_list(density[j], holdingtemperaturelist, holdingpressurelist, holdinggamma1list)
+
+
+
 
 
 datafile.close() #closing the file
