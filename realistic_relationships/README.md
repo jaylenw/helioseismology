@@ -18,3 +18,9 @@ About this Directory
 
   README info on Opal EOS data files
   http://opalopacity.llnl.gov/EOS_2005/README
+
+
+4.  First line of EOS5.txt has been removed to make obtaining the data from the
+    file easier.  The first line removed below:
+
+           X= .8000 Z= .0000     moles= 2.0592245  mass/mole(ion)= 1.1852596
