@@ -24,3 +24,5 @@ About this Directory
     file easier.  The first line removed below:
 
            X= .8000 Z= .0000     moles= 2.0592245  mass/mole(ion)= 1.1852596
+
+    Last line has also been deleted.
