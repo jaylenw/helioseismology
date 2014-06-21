@@ -26,3 +26,7 @@ About this Directory
            X= .8000 Z= .0000     moles= 2.0592245  mass/mole(ion)= 1.1852596
 
     Last line has also been deleted.
+
+
+5.  The code in this directory as of now is not complete and will not run
+    on your system.
