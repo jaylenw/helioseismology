@@ -67,13 +67,20 @@ for n in xrange(0,168):  #total numbers in linebreakerlist is 169
     for counter in xrange(s, t-7 ):
       #computation happens
       #densitylist[j]
-      j+=1
+
 
       holdingtemperaturelist.append(temperaturelist[counter])
       holdingpressurelist.append(presurelist[counter])
       holdinggamma1list.append(gamm1list[counder])
 
-      def float_list(density[j], holdingtemperaturelist, holdingpressurelist, holdinggamma1list)
+
+
+
+
+
+      plot_pressuretemp(floatnum(density[j]), float_pressurelist[holdingpressurelist], float_templist[holdingtemperaturelist] )
+      plot_pressuregamma(floatnum(density[j]), float_pressurelist[holdingpressurelist], float_gamma1list(holdinggamma1list))
+      j+=1
 
 
 
