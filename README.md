@@ -24,6 +24,4 @@ Updates
 
 1. Python     2.7
 2. NumPy      1.6 or later
-3. SciPy      0.10.0 or later
-4. AstroPy    0.3.0 or later
 5. Matplotlib 1.30 or later
