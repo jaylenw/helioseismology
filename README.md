@@ -1,6 +1,8 @@
 Helioseismology Research
 ========================
 
+Archived 2023/11/26
+
 Goal
 -----
 1. To learn and gather results from calculations of phenomena on the Sun.
